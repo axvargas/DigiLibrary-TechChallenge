@@ -1,0 +1,63 @@
+<template>
+    <lightning-card title="DigiLibrary Book Search" icon-name="standard:article">
+        <div class="slds-var-p-around_medium">
+
+            <lightning-record-picker
+                label="Borrower"
+                placeholder="Search Contact..."
+                object-api-name="Contact"
+                onchange={handleBorrowerChange}>
+            </lightning-record-picker>
+
+            <div class="slds-grid slds-gutters slds-var-m-top_medium">
+                <div class="slds-col">
+                    <lightning-input
+                        type="search"
+                        label="Search Books"
+                        placeholder="Search by title or author"
+                        value={searchTerm}
+                        onchange={handleSearchTermChange}
+                        onkeyup={handleSearchKeyUp}>
+                    </lightning-input>
+                </div>
+
+                <div class="slds-col slds-grow-none slds-align-bottom">
+                    <lightning-button
+                        label="Search"
+                        variant="brand"
+                        onclick={handleSearch}
+                        disabled={isLoading}>
+                    </lightning-button>
+                </div>
+            </div>
+
+            <template if:true={isLoading}>
+                <div class="slds-var-m-top_medium">
+                    <lightning-spinner
+                        alternative-text="Loading books..."
+                        size="medium">
+                    </lightning-spinner>
+                </div>
+            </template>
+
+            <template if:true={books}>
+                <div class="slds-var-m-top_medium">
+                    <lightning-datatable
+                        key-field="Id"
+                        data={books}
+                        columns={columns}
+                        hide-checkbox-column
+                        onrowaction={handleRowAction}>
+                    </lightning-datatable>
+                </div>
+            </template>
+
+            <template if:true={showNoResults}>
+                <div class="slds-var-m-top_medium slds-text-align_center">
+                    <p>No books found.</p>
+                </div>
+            </template>
+
+        </div>
+    </lightning-card>
+</template>
