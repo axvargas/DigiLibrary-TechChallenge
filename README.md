@@ -125,6 +125,7 @@ Features:
 - Request a loan for existing Salesforce books.
 - Import external books from Open Library.
 - Refresh local inventory after loan creation.
+- **Note: As an improvement I would suggest using Lightning Message Service(LMS) to actively listen to updates in the Books to update the available copies in real time.**
 
 ## External Integration
 
