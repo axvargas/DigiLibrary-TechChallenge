@@ -227,15 +227,22 @@ This delete behavior is included to satisfy the original requirement, but the re
 
 ## How to Use
 
-1. Open the DigiLibrary app.
+1. Open the DigiLibrary app. <img width="3020" height="1120" alt="Google Chrome 2026-05-27 19 10 11" src="https://github.com/user-attachments/assets/27bb171a-846e-451d-8dc9-8caa7d4ee902" />
+
 2. Go to the Home page.
-3. Select a borrower.
-4. Search for a book by title or author.
+3. Select a borrower. <img width="734" height="308" alt="Google Chrome 2026-05-27 19 11 16" src="https://github.com/user-attachments/assets/39c16e93-1182-4d6c-a4f3-091f05a0b392" />
+
+4. Search for a book by title or author. <img width="2970" height="1188" alt="Google Chrome 2026-05-27 19 13 18" src="https://github.com/user-attachments/assets/77f6efd4-7fe6-4e12-95a9-75cf23392146" />
+
 5. Review the results.
-6. Click Request Loan if the book already exists in Salesforce.
-7. Click Register/Import Book if the book comes from Open Library.
-8. After importing, click Request Loan to borrow the book.
-9. To return a book, open the loan record from a Contacts Record Page and change Status__c to Returned.
+6. Click Request Loan if the book already exists in Salesforce. <img width="2736" height="234" alt="Google Chrome 2026-05-27 19 27 15" src="https://github.com/user-attachments/assets/d23666b5-04b5-4d5a-96dd-b1292acf5307" /> <img width="1160" height="302" alt="Google Chrome 2026-05-27 19 27 10" src="https://github.com/user-attachments/assets/92b6c945-1adb-4109-a2ee-16dc545ffbb0" />
+
+7. Click Register/Import Book if the book comes from Open Library.<img width="1134" height="232" alt="Google Chrome 2026-05-27 19 15 24" src="https://github.com/user-attachments/assets/e5a007fe-db71-4a7b-b358-2319d7f4d177" />
+8. After importing, click Request Loan to borrow the book. 
+9. To return a book, open the loan record from a Contacts Record Page and change Status__c to Returned. <img width="3012" height="1536" alt="Google Chrome 2026-05-27 19 16 26" src="https://github.com/user-attachments/assets/43d6df0b-210a-4beb-ac67-5b4b65763115" />
+<img width="2034" height="1546" alt="Google Chrome 2026-05-27 19 16 55" src="https://github.com/user-attachments/assets/bac2f25e-4950-4e05-b08b-bcd229bd4a88" />
+
+
 
 ## Testing
 
