@@ -228,7 +228,7 @@ This delete behavior is included to satisfy the original requirement, but the re
 ## How to Use
 
 1. Open the DigiLibrary app.
-2. Go to the Book Search page.
+2. Go to the Home page.
 3. Select a borrower.
 4. Search for a book by title or author.
 5. Review the results.
