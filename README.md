@@ -25,7 +25,7 @@ Fields:
 - Book__c: Related Library_Book__c record.
 - Loan_Start_Date__c: Date when the loan started.
 - Loan_End_Date__c: Date when the book was returned.
-- Status__c: Loan status. Values: Active, Returned, Cancelled.
+- **Status__c: Loan status. Values: Active, Returned, Cancelled.**
 
 ## Apex Classes
 
