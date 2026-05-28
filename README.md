@@ -237,10 +237,9 @@ This delete behavior is included to satisfy the original requirement, but the re
 5. Review the results.
 6. Click Request Loan if the book already exists in Salesforce. <img width="2736" height="234" alt="Google Chrome 2026-05-27 19 27 15" src="https://github.com/user-attachments/assets/d23666b5-04b5-4d5a-96dd-b1292acf5307" /> <img width="1160" height="302" alt="Google Chrome 2026-05-27 19 27 10" src="https://github.com/user-attachments/assets/92b6c945-1adb-4109-a2ee-16dc545ffbb0" />
 
-7. Click Register/Import Book if the book comes from Open Library.<img width="1134" height="232" alt="Google Chrome 2026-05-27 19 15 24" src="https://github.com/user-attachments/assets/e5a007fe-db71-4a7b-b358-2319d7f4d177" />
+7. Click Register/Import Book if the book comes from Open Library.<img width="2736" height="234" alt="Google Chrome 2026-05-27 19 28 12" src="https://github.com/user-attachments/assets/496d5106-c977-4603-ba5c-731701ee0b44" /> <img width="1134" height="232" alt="Google Chrome 2026-05-27 19 15 24" src="https://github.com/user-attachments/assets/e5a007fe-db71-4a7b-b358-2319d7f4d177" />
 8. After importing, click Request Loan to borrow the book. 
-9. To return a book, open the loan record from a Contacts Record Page and change Status__c to Returned. <img width="3012" height="1536" alt="Google Chrome 2026-05-27 19 16 26" src="https://github.com/user-attachments/assets/43d6df0b-210a-4beb-ac67-5b4b65763115" />
-<img width="2034" height="1546" alt="Google Chrome 2026-05-27 19 16 55" src="https://github.com/user-attachments/assets/bac2f25e-4950-4e05-b08b-bcd229bd4a88" />
+9. To return a book, open the loan record from a Contacts Record Page and change Status__c to Returned. <img width="3012" height="1536" alt="Google Chrome 2026-05-27 19 16 26" src="https://github.com/user-attachments/assets/43d6df0b-210a-4beb-ac67-5b4b65763115" /> <img width="2034" height="1546" alt="Google Chrome 2026-05-27 19 16 55" src="https://github.com/user-attachments/assets/bac2f25e-4950-4e05-b08b-bcd229bd4a88" />
 
 
 
