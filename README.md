@@ -77,7 +77,7 @@ Responsibilities:
 
 ### OpenLibrarySearchResponse
 
-DTO class used to deserialize Open Library API responses.
+Data Transfer Object (DTO) class used to deserialize Open Library API responses.
 
 ### LibraryBookSearchResult
 
