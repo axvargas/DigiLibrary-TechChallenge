@@ -1,4 +1,4 @@
-# DigiLibrary - Salesforce Development Challenge
+# DigiLibrary - Tech Salesforce Challenge
 
 DigiLibrary is a Salesforce application for managing a corporate digital library. It allows users to search books, request loans, return books, and import new books from Open Library.
 
